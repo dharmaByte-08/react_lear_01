@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  margin: 10px 10px;
+}
+
+.card p {
+  margin: 20px 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
